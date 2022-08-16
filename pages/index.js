@@ -17,7 +17,7 @@ export default function Home() {
         <div className={styles.grid}>
           <form action='./api/form' method='post'>
             <input type='text' name='fname' placeholder='Enter first name'></input>
-            <input type='text' name='lname'></input>
+            <input type='text' name='lname' placeholder='Enter last name'></input>
             <input type='submit'></input>
           </form>
         </div>
