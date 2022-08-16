@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Form from './api/form'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,7 +16,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <form action='./api/form' method='post'>
-            <input type='text' name='fname'></input>
+            <input type='text' name='fname' placeholder='Enter first name'></input>
             <input type='text' name='lname'></input>
             <input type='submit'></input>
           </form>
